@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;1,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(124deg, #242582, #2f2fa2);
+  color: #fff;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.ageCal {
+  padding: 1rem;
+  width: 24rem;
+}
+.header {
+  margin: 1rem 1rem 1rem 0;
+}
+.head2 {
+  color: #5cdb95;
+}
+.calLogic {
+  margin: 1rem 1rem 1rem 0;
+  background-color: #ffffff8a;
+  /* box-shadow: 0rem 0rem 0rem 1rem #ffffff8a; */
+  padding: 1rem;
+
+  border-radius: 0.2rem;
+}
+.calLogic button[type="submit"],
+input[type="date"] {
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.2rem;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
