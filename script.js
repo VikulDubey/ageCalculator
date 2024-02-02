@@ -33,8 +33,8 @@ calculateBtn.addEventListener("click", () => {
     d3 = getMonthDate(y1, m1) + (d2 - d1);
   }
 
-  function getMonthDate() {
-    return new Date(year, month, 0).toString();
+  function getMonthDate(year, month) {
+    return new Date(year, month, 0).getDate();
   }
 
   result.innerHTML = `You are ${y3} years, ${m3} months and ${d3} days old.`;
