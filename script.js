@@ -29,7 +29,7 @@ calculateBtn.addEventListener("click", () => {
   if (d2 >= d1) {
     d3 = d2 - d1;
   } else {
-    m--;
+    m3--;
     d3 = getMonthDate(y1, m1) + (d2 - d1);
   }
 
